@@ -1,0 +1,28 @@
+<include file="Index/header"/> 
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-rule-add" >
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>标签名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="<?php echo $info['tag_name'] ?>" placeholder="请输入标签名称" id="type_name" name="tag_name">
+			</div>
+		</div>
+		<div class="row cl">
+		<input type='hidden' name="id" value="<?php echo $info['id'] ?>"></input>
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="button" value="" onclick="_form()">&nbsp;&nbsp;提交&nbsp;&nbsp;</input>
+			</div>
+		</div>
+	</form>
+</article>
+
+
+<script type="text/javascript">
+var SCOPE = {
+    'submit_url' : "/admin/tag/save",
+    'jump_url': "/admin/tag/index",
+  };
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+<include file="Index/footer"/> 

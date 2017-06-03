@@ -1,0 +1,104 @@
+<include file="Index/header"/>
+<body>
+<article class="page-container">
+	<form  class="form form-horizontal" id="form-admin-role-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>分组名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请数据角色分组的名称，如：系统管理员" id="roleName" name="title">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>分组描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入角色分组的描述信息，不超过255个字符" id="description" name="description">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>是否启用：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="status" type="radio" id="sex-1" checked value="1">
+					<label for="sex-1">启用</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="status" value="0">
+					<label for="sex-2">禁用</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">具备权限：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+			<?php foreach($list as $v){?>
+				<dl class="permission-list">
+					<dt>
+						<label>
+							<input type="checkbox" value="<?php echo $v['id']?>" name="ids" id="user-Character-1"><?php echo $v['title']?>
+						</label>
+					</dt>					
+					<dd>					
+						<dl class="cl permission-list2">						
+							<dd>
+							<?php foreach($info as $v1){if($v1['p_id']==$v['id']){ ?>				<label class="">
+									<input type="checkbox" value="<?php echo $v1['id'];?>" name="ids" id="user-Character-1-0-0">
+									<?php echo $v1['title'];?>
+								</label>
+                            <?php } }?>
+							</dd>						
+						</dl>					
+					</dd>
+				</dl>
+			<?php }?>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button class="btn btn-primary radius" type="button" value="" onclick="sform()">&nbsp;&nbsp;提交&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+
+<script type="text/javascript">
+$(function(){
+	$(".permission-list dt input:checkbox").click(function(){
+		$(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+	});
+	$(".permission-list2 dd input:checkbox").click(function(){
+		var l =$(this).parent().parent().find("input:checked").length;
+		var l2=$(this).parents(".permission-list").find(".permission-list2 dd").find("input:checked").length;
+		if($(this).prop("checked")){
+			$(this).closest("dl").find("dt input:checkbox").prop("checked",true);
+			$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",true);
+		}
+		else{
+			if(l==0){
+				$(this).closest("dl").find("dt input:checkbox").prop("checked",false);
+			}
+			if(l2==0){
+				$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",false);
+			}
+		}
+	});
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-yellow',
+		increaseArea: '20%'
+	});
+});
+var SCOPE = {
+    'submit_url' : "/admin/rule/add",
+    'jump_url': "/admin/rule/index",
+  }; 
+
+
+
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+<include file="Index/header"/>

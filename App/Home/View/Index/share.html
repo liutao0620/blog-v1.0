@@ -1,0 +1,19 @@
+<include file="Index/header"/>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+		<header class="archive-header"> 
+			<h1>{$info['res']['type_name']}</h1>
+		</header>
+		<volist name="info['article']" id='vo'>
+						<article class="excerpt excerpt-nothumbnail">
+				<script src="{$vo.git_url}"></script>
+			</article>
+		</volist>				
+					<div class="pagination">
+					</div>
+	</div>
+</div>
+<include file="Index/right"/>
+</section>
+<include file="Index/footer"/>

@@ -1,0 +1,160 @@
+[ 2017-05-30T18:26:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=1 [ RunTime:0.1120s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=2 [ RunTime:0.0040s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=3 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=4 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_content` ORDER BY reading_num LIMIT 10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `blog_type` ORDER BY order_by desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0770s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_content` WHERE ( is_top=1 ) ORDER BY create_time desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc [ RunTime:0.0210s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,10 [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.113007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.113007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.357020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.357020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.065003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.065003s ]
+
+[ 2017-05-30T18:33:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=1 [ RunTime:0.0020s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=2 [ RunTime:0.0020s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=3 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=4 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_content` ORDER BY reading_num LIMIT 10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_type` ORDER BY order_by desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_content` WHERE ( is_top=1 ) ORDER BY create_time desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc [ RunTime:0.0030s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,10 [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-30T18:38:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=1 [ RunTime:0.0190s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=2 [ RunTime:0.0040s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=3 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=4 [ RunTime:0.0020s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_content` ORDER BY reading_num LIMIT 10   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_type` ORDER BY order_by desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_content` WHERE ( is_top=1 ) ORDER BY create_time desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc [ RunTime:0.0030s ]
+SQL: select a.*,b.type_name,b.id as typeid from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,10 [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-30T18:43:38+08:00 ] 127.0.0.1 /home/index/content/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=1 [ RunTime:0.0030s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=2 [ RunTime:0.0020s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=3 [ RunTime:0.0010s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=4 [ RunTime:0.0000s ]
+SQL: select a.* from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where c.id=5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_content` ORDER BY reading_num LIMIT 10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_type` ORDER BY order_by desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_content` WHERE ( is_top=1 ) ORDER BY create_time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: UPDATE `blog_content` SET `reading_num`=reading_num+1 WHERE ( id=22 ) [ RunTime:0.0380s ]
+SQL: select b.type_name,b.id from blog_content a left join blog_type b on a.type_id=b.id where a.id=22 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_content` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_content` WHERE ( id<22 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_content` WHERE ( id>22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_content`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

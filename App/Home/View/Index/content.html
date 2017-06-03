@@ -1,0 +1,64 @@
+
+<include file="Index/header"/>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+		<div class="breadcrumbs">你的位置：
+			<a href="<?php echo $info['config']['site_url']?>"><?php echo $info['config']['site_name']?></a> <small>></small>
+			<a href="/home/index/article/id/{$info['typename'][0]['id']}">{$info['typename'][0]['type_name']}</a> <small>></small>
+			<span class="muted">{$info['content']['title']}</span>
+		</div>
+			<header class="article-header">
+				<h1 class="article-title"><a href="/home/index/content/id/{$info['content']['id']}.html">{$info['content']['title']}</a></h1>
+				<div class="meta">
+					<span class="muted"><a href="/home/index/article/id/{$info['typename'][0]['id']}.html"><i class="icon-list-alt icon12"></i>{$info['typename'][0]['type_name']}</a></span>
+					<time class="muted"><i class="ico icon-time icon12"></i> {$info['content']['time']} (<?php echo date('Y-m-d',$info['content']['create_time']) ?>)</time>
+					<span class="muted"><i class="ico icon-eye-open icon12"></i> {$info['content']['reading_num']}浏览</span>
+					<span class="muted"><i class="ico icon-eye-open icon12"></i> {$info['content']['laud_num']}<a href='#'>点赞</a></span>
+					<span class="muted"><i class="icon-comment icon12"></i> <a href="/article/7#respond"><span id = "sourceId::7" class = "cy_cmt_count" ></span><script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cyryTyLri"></script>评论</a></span>
+				</div>
+			</header>
+
+		<article class="article-content">
+		<?php echo html_entity_decode($info['content']['content']);?>
+			</article>
+
+		<footer class="article-footer">
+			<div class="article-tags">继续浏览有关
+									<a href="/home/index/article/id/{$info['typename'][0]['id']}" rel="tag">{$info['typename'][0]['type_name']}</a>
+								的文章
+			</div>
+		</footer>
+		<nav class="article-nav">
+			<span class="article-nav-prev"><?php echo empty($info['prev']['title'])?'么有了':'上一篇';?><a href="<?php echo empty($info['prev']['title'])?'javascript:void(0)':'/home/index/content/id/'.$info['prev']['id'];?>" rel="prev"><?php echo empty($info['prev']['title'])?'':$info['prev']['title'];?></a></span>
+			<span class="article-nav-next"><?php echo empty($info['next']['title'])?'么有了':'下一篇';?>
+				<a href="<?php echo empty($info['next']['title'])?'javascript:void(0)':'/home/index/content/id/'.$info['next']['id'];?>" rel="next"><?php echo empty($info['next']['title'])?'':$info['next']['title'];?></a>
+				</span>
+		</nav>
+
+		<div class="relates">
+			<h3>相关文章</h3>
+			<ul>
+			            <volist name="info['allContent']" id="vo">
+								<li><a href="/home/index/content/id/{$vo.id}">{$vo.title}</a></li>
+						</volist>		
+							</ul>
+		</div>
+		<div id="respond" class="no_webshot" style="padding:0 20px;">
+			<div id="SOHUCS" sid="7" ></div>
+			<script type="text/javascript">
+				(function(){
+					var appid = 'cyryTyLri';
+					var conf = 'prod_3fcc2980480ba37f1899ef289c8903b7';
+					var width = window.innerWidth || document.documentElement.clientWidth;
+					if (width < 960) {
+						window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+			</script>
+
+
+		</div>
+	</div>
+</div>
+<include file="Index/right"/>
+</section>
+<include file="Index/footer"/>	

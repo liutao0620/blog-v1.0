@@ -1,0 +1,53 @@
+<include file="Index/header"/>
+<section class="container">
+<div class="content-wrap">
+	<div class="content">
+	<div class="sticky">
+	<h2 class="title">置顶推荐</h2>
+	<ul>
+			<?php foreach($info['topArticle'] as $v){?>	
+				<li class="item">
+			<a href="/home/index/content/id/<?php echo $v['id']?>">
+				<img src="__PUBLIC__/Uploads/<?php echo $v['image']?>" alt="<?php echo $v['title']?>" />
+				<h3><?php echo $v['title']?></h3>
+				<p class="muted"><?php 
+				$str = htmlspecialchars_decode($v['introduction']);
+				$str=strip_tags($str);
+				$str=substr($str,0,156);
+				echo $str;
+				?></p>
+			</a>
+		</li>
+		<?php }?>
+			</ul>
+</div>
+		<h2 class="title">最新发布</h2>
+		<volist name="info['content']" id="vo">
+				<article class="excerpt excerpt-nothumbnail">
+			<header>
+				<a class="label label-important" href="/home/index/article/id/{$vo.typeid}" target="_blank">{$vo.type_name}<i class="label-arrow"></i></a>
+				<h2><a href="/home/index/content/id/{$vo.id}" target="_blank" title="{$vo.title}">{$vo.title}</a></h2>
+			</header>
+			<p>
+			<span class="muted"><i class="icon-time icon12"></i> {$vo.create_time|date='Y-m-d H:i:s',###}</span>
+			<span class="muted"><i class="icon-eye-open icon12"></i> {$vo.reading_num}浏览</span>
+			<span class="muted"><i class="icon-comment icon12"></i>
+				<a href="/article/20#respond">
+					<span id = "sourceId::20" class = "cy_cmt_count" ></span>
+					<script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cyryTyLri"></script>评论</a>
+			</span>
+			</p>
+			<p class="note">{$vo.content|html_entity_decode|rtrim|strip_tags|substr=###,0,700}</p>
+		</article>
+		</volist>		
+		<div class="pagination">
+			<ul class="pagination">
+				<li class="disabled"></li> 
+				{$info['page']}
+			</ul>		
+		</div>
+	</div>
+</div>
+<include file="Index/right"/>
+</section>
+<include file="Index/footer"/>	

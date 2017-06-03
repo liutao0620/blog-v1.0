@@ -1,0 +1,1692 @@
+[ 2017-05-29T00:00:27+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:01:10+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:02:51+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0050s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:05:13+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:05:18+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:05:25+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:05:30+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:05:34+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:06:49+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0090s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:06:59+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:07:11+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:08:33+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:08:36+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:09:30+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-29T00:09:34+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:13:19+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:13:24+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:13:41+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from blog_menu where p_id=0 [ RunTime:0.0020s ]
+SQL: select * from blog_menu where p_id=1 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=2 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=12 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=26 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=28 and is_show=0 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id where b.admin_id=17 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-29T00:13:43+08:00 ] 127.0.0.1 /admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-29T00:13:46+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0090s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0030s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:13:50+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:13:55+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:14:16+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:15:01+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-29T00:15:06+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:15:21+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:18:11+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from blog_menu where p_id=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=1 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=2 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=12 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=26 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=28 and is_show=0 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id where b.admin_id=17 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:18:12+08:00 ] 127.0.0.1 /admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-29T00:18:15+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0080s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0040s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:18:18+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:18:43+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:20:06+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:20:37+08:00 ] 127.0.0.1 /admin/content/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0050s ]
+SQL: INSERT INTO `blog_content` (`title`,`image`,`type_id`,`author`,`content`,`create_time`,`introduction`) VALUES ('撒旦法','content/20170529/592af8b6c7bc4.PNG','12','','','1495988437','') [ RunTime:0.0540s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\blog\App\Admin\Model\ContentModel.class.php 第 50 行.
+
+[ 2017-05-29T00:20:39+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0030s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:21:01+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:21:07+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:21:14+08:00 ] 127.0.0.1 /admin/content/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0050s ]
+SQL: INSERT INTO `blog_content` (`title`,`image`,`type_id`,`author`,`content`,`create_time`,`introduction`) VALUES ('是地方撒','content/20170529/592af8f3a955e.png','12','','&lt;p&gt;双方的&lt;/p&gt;','1495988473','&lt;p&gt;双方的&lt;/p&gt;') [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `blog_content_tag` [ RunTime:0.0180s ]
+SQL: INSERT INTO `blog_content_tag` (`tag_id`,`article_id`) VALUES ('1','43') [ RunTime:0.0440s ]
+SQL: INSERT INTO `blog_content_tag` (`tag_id`,`article_id`) VALUES ('2','43') [ RunTime:0.0020s ]
+SQL: INSERT INTO `blog_content_tag` (`tag_id`,`article_id`) VALUES ('3','43') [ RunTime:0.0310s ]
+SQL: INSERT INTO `blog_content_tag` (`tag_id`,`article_id`) VALUES ('4','43') [ RunTime:0.0110s ]
+SQL: INSERT INTO `blog_content_tag` (`tag_id`,`article_id`) VALUES ('5','43') [ RunTime:0.0020s ]
+
+[ 2017-05-29T00:21:16+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0090s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0030s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:21:20+08:00 ] 127.0.0.1 /admin/content/edit/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: select a.*,c.tag_name,c.id as tagid from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where a.id=43 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:22:03+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0050s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-29T00:22:11+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:22:55+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:23:14+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:25:10+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:25:21+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:25:29+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:28:39+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:28:40+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-29T00:28:43+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:29:23+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:29:24+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0090s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:29:26+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:34:37+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: userid D:\WWW\blog\App\Admin\Controller\MyController.class.php 第 10 行.
+NOTIC: [8] Undefined index: username D:\WWW\blog\App\Admin\Controller\MyController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:34:38+08:00 ] 127.0.0.1 /index.php?s=/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: userid D:\WWW\blog\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 21 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:34:43+08:00 ] 127.0.0.1 /admin/login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `blog_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blog_admin` SET `last_login_time`='1495989283',`last_login_ip`='2130706433',`login_times`='15' WHERE ( id=17 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_admin_rule` [ RunTime:0.0050s ]
+SQL: DELETE FROM `blog_admin_rule` WHERE ( admin_id=0 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_admin_rule` (`admin_id`,`rule_id`) VALUES ('0','0') [ RunTime:0.0000s ]
+
+[ 2017-05-29T00:34:45+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from blog_menu where p_id=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=1 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=2 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=12 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=26 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=28 and is_show=0 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id where b.admin_id=17 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T00:34:47+08:00 ] 127.0.0.1 /admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:34:56+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0020s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-29T00:34:59+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0060s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-29T00:35:00+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0120s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:35:07+08:00 ] 127.0.0.1 /admin/image/oneFileupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-29T00:37:08+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T00:37:09+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0110s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T11:27:15+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0930s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0100s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T11:27:17+08:00 ] 127.0.0.1 /admin/content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0110s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\d622bb3b4224eb8ac9bd1578e15a0807.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T11:27:25+08:00 ] 127.0.0.1 /admin/content/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0160s ]
+SQL: INSERT INTO `blog_content` (`title`,`image`,`type_id`,`author`,`content`,`create_time`,`introduction`) VALUES ('','','12','','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170529/1496028441834687.png&quot; title=&quot;1496028441834687.png&quot; alt=&quot;thumb058f6d56a7988d.PNG&quot;/&gt;&lt;/p&gt;','1496028445','&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170529/1496028441834687.png&quot; title=&quot;1496028441834687.png&quot; alt=&quot;thumb058f6d56a7988d.PNG&quot;/&gt;&lt;/p&gt;') [ RunTime:0.0780s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\blog\App\Admin\Model\ContentModel.class.php 第 50 行.
+
+[ 2017-05-29T11:27:28+08:00 ] 127.0.0.1 /admin/content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0380s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id [ RunTime:0.0700s ]
+SQL: select a.*,b.type_name from blog_content a left join blog_type b on a.type_id=b.id order by a.create_time desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6e3791952b5e133e055abbbf30a98617.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T11:27:59+08:00 ] 127.0.0.1 /admin/content/deleteById
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0200s ]
+SQL: DELETE FROM `blog_content` WHERE `id` = 44 [ RunTime:0.0270s ]
+
+[ 2017-05-29T11:28:01+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from blog_menu where p_id=0 [ RunTime:0.0020s ]
+SQL: select * from blog_menu where p_id=1 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=2 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=12 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=26 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=28 and is_show=0 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id where b.admin_id=17 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-29T11:28:03+08:00 ] 127.0.0.1 /admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-29T11:54:49+08:00 ] 127.0.0.1 /admin/content/edit/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: select a.*,c.tag_name,c.id as tagid from blog_content a left join blog_content_tag b on a.id=b.article_id left join blog_tag c on b.tag_id=c.id where a.id=43 [ RunTime:0.0870s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0070s ]
+SQL: select *, case model_id
+							   when 1 then "文章模型" 
+							   when 2 then "独立模型"
+							   when 3 then "作品展示"
+							   else "其它类型"
+						 end as model_id
+				from blog_type order by order_by desc; [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_tag` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_tag`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\6da1ff48dd4aa5c4e65fb141cc7a6629.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.353078s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.354078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-29T11:55:05+08:00 ] 127.0.0.1 /admin/content/deleteById
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_content` [ RunTime:0.0070s ]
+SQL: DELETE FROM `blog_content` WHERE `id` = 43 [ RunTime:0.0190s ]
+
+[ 2017-05-29T11:55:08+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from blog_menu where p_id=0 [ RunTime:0.0020s ]
+SQL: select * from blog_menu where p_id=1 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=2 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=12 and is_show=0 [ RunTime:0.0000s ]
+SQL: select * from blog_menu where p_id=26 and is_show=0 [ RunTime:0.0010s ]
+SQL: select * from blog_menu where p_id=28 and is_show=0 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id where b.admin_id=17 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-29T11:55:10+08:00 ] 127.0.0.1 /admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

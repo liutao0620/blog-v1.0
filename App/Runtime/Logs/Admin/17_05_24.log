@@ -1,0 +1,109 @@
+[ 2017-05-24T23:57:39+08:00 ] 127.0.0.1 /admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=17; [ RunTime:0.0020s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=20; [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=21; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-24T23:57:55+08:00 ] 127.0.0.1 /admin/admin/changestatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blog_admin` SET `status`='2' WHERE ( id=17 ) [ RunTime:0.1010s ]
+
+[ 2017-05-24T23:58:01+08:00 ] 127.0.0.1 /admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=17; [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=20; [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=21; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-24T23:58:13+08:00 ] 127.0.0.1 /admin/admin/changestatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_admin` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blog_admin` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0020s ]
+
+[ 2017-05-24T23:58:16+08:00 ] 127.0.0.1 /admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0020s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=17; [ RunTime:0.0000s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=20; [ RunTime:0.0010s ]
+SQL: select a.title from blog_rule a left join blog_admin_rule b on a.id=b.rule_id left join blog_admin c on c.id=b.admin_id where c.id=21; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 19 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 20 行.
+NOTIC: [8] Undefined variable: configinfo D:\WWW\blog\App\Runtime\Cache\Admin\7d5bae8f2106a04379ef690681e93072.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,61 @@
+<include file="Index/header"/> 
+<body>
+<article class="page-container">
+    <form class="form form-horizontal" id="form-link-add" method="post" >
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>链接名称：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="<?php echo $info['link_name']?>" placeholder=""  name="link_name">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>链接地址：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="<?php echo $info['link_url']?>"   name="link_url">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">联系人：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off"  placeholder=""  name="link_contact" value="<?php echo $info['link_contact']?>">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">联系方式：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off"  placeholder=""  name="link_method" value="<?php echo $info['link_method']?>">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">联系方式的号码：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off"  placeholder=""  name="link_method_num" value="<?php echo $info['link_method_num']?>">
+            </div>
+        </div>
+        <div class="row cl">
+        <input type='hidden' name="id" value="<?php echo $info['id'] ?>"></input>
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <button class="btn btn-primary radius" type="button" value="" onclick="_form()">&nbsp;&nbsp;提交&nbsp;&nbsp;</button>
+            </div>
+        </div>
+    </form>
+</article>
+
+
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });        
+    });
+    var SCOPE = {
+    'submit_url' : "/admin/link/save",
+    'jump_url': "/admin/link/index",
+  };
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+<include file="Index/footer"/> 

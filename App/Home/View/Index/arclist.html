@@ -1,0 +1,37 @@
+
+<include file="Index/header"/>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+		<header class="archive-header"> 
+			<h1><a href="/category/6">{$info['res']['type_name']}</a></h1>
+		</header>
+		<?php foreach($info['article'] as $v){?>
+			<article class="excerpt excerpt-nothumbnail">
+				<header><h2><a href="/home/index/content/id/<?php echo $v['id']?>" title="<?php echo $v['title']?>"><?php echo $v['title']?></a></h2>
+				</header>
+				<p>
+					<span class="muted">
+					<i class="icon-time icon12"></i> <?php echo $v['time']?>
+					 (<?php echo date('Y-m-d',$v['create_time'])?>)</span>	<span class="muted">
+					<i class="icon-eye-open icon12"></i> <?php echo $v['reading_num']?>浏览</span>	<span class="muted">
+					<i class="icon-eye-open icon12"></i> <?php echo $v['laud_num']?>点赞</span>	<span class="muted">
+					<i class="icon-comment icon12"></i> <a href="/article/20#respond"><span id = "sourceId::20" class = "cy_cmt_count" ></span><script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cyryTyLri"></script>评论</a></span>
+				</p>
+				<p class="note"><?php
+				$str= htmlspecialchars_decode($v['introduction']);
+				$str= strip_tags($str);
+				$str= substr($str,0,700);
+				echo $str;
+				?><br/><br/></p>
+		</article>
+		<?php }?>		
+				<div class="pagination">
+					</div>
+	</div>
+</div>
+
+<include file="Index/right"/>
+</section>
+<include file="Index/footer"/>	
+	

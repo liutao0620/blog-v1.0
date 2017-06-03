@@ -1,0 +1,44 @@
+<aside class="sidebar">
+	<!--<div class="widget d_textbanner">
+    <a class="style02" href=""><strong></strong><h2>PHP设计模式完美教程</h2>
+        <p>12种设计模式 •UML类图 •设计原则<br /> •PHP代码例程 •简单易懂</p>
+    </a>
+</div>-->
+<div class="widget widget_views-plus">
+    <h3 class="widget_tit">热门文章</h3>
+    <ul>
+            <?php foreach($info['reading_article'] as $v){ ?>
+                <li><a href="/home/index/content/id/<?php echo $v['id']?>"  title="<?php echo $v['title']?>"><?php echo $v['title']?></a></li>
+            <?php }?>    
+            </ul>
+</div>
+<div class="widget d_tag">
+    <h3 class="widget_tit">标签</h3>
+    <div class="d_tags">
+                <?php foreach($info['tag'] as $k => $v){?>
+                 <a href="/home/index/tagArticle/id/<?php echo $v['id']?>"><?php echo $v['tag_name']?> (<?php echo count($v['content'])?>)</a>
+                <?php }?> 
+            </div>
+</div>
+<div class="widget d_comment">
+    <h3 class="widget_tit">最新评论</h3>
+    <ul>
+
+        <div id="cyReping" role="cylabs" data-use="reping"></div>
+        <script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cyryTyLri"></script>
+    </ul>
+</div>
+
+
+	<div class="widget widget_text"><h3 class="widget_tit">友情链接</h3>
+		<div class="textwidget"><div class="widget_pages">
+		<ul>
+							<?php foreach($info['link'] as $v){?>
+							<li class="page_item page-item-2"><a href="<?php echo $v['link_url']?>" target="_blank"><?php echo $v['link_name']?></a></li>
+                            <?php }?>
+					</ul>
+	</div>
+		</div>
+		</div>
+</aside>
